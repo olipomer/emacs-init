@@ -1,0 +1,44 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/app/exercism/javascript/" . "hello-world/")
+ ("/app/exercism/" . "javascript/")
+ ("/app/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/app/"
+ "/app/.emacs.d/"
+ "/app/exercism/javascript/hello-world/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "settings.html"
+ "init.el"
+ "README.md"
+ "hello-world.spec.js"
+ "hello-world.js"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/app/.emacs.d/" (23404 22200 313491 197000) "ido.last" "init.el" "web-mode/" "elpa/" "auto-save-list/" "eshell/" "../" "./")
+
+ ("/app/exercism/javascript/hello-world/" (23404 21816 19275 260000) "hello-world.spec.js" "hello-world.js" "README.md" ".solution.json" "../" "./")
+
+ ("/app/exercism/javascript/" (23404 21705 241483 614000) "hello-world/" "../" "./")
+
+ ("/app/exercism/" (23404 21705 241483 614000) "javascript/" "php/" "../" "./")
+
+ ("/app/exercism/php/hamming/" (23404 20410 180545 90000) "hamming.php" "hamming.php~" "hamming_test.php" "README.md" ".solution.json" "../" "./")
+
+ ("/app/" (23403 36051 762596 444000) ".gnupg/" ".emacs.d/" ".bash_history" ".bashrc" ".nano/" "exercism/" "bin/" "shell/" "exercism-linux-64bit.tgz" ".wget-hsts" ".config/" ".env" ".data/" "style.css" "script.js" "index.html" "README.md" ".glitch-assets" ".pnpm_node_modules/" ".git/" "views/" "public/" "../" "./")
+
+ ("/app/exercism/php/" (23403 28013 277808 258000) "hamming/" "hello-world/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

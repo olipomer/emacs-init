@@ -1,0 +1,117 @@
+cd ~
+wget --no-check-certificate https://phar.phpunit.de/phpunit.phar
+chmod +x phpunit.phar 
+ls
+mv phpunit.phar bin/
+cd exercism/php/hello-world/
+phpunit.phar hello-world_test.php
+php --version
+cd ~
+wget --no-check-certificate https://phar.phpunit.de/phpunit-6.phar
+chmod +x phpunit-6.phar 
+mv phpunit-6.phar bin/
+phpunit-6.phar
+phpunit-6.phar --check-version
+cd -
+phpunit-6.phar hello-world_test.php
+phpunit-6.phar hello-world_test.php
+phpunit-6.phar hello-world_test.php
+exercism submit hello-world.php
+exercism download --exercise=hamming --track=php
+cd ../hamming/
+phpunit-6.phar hamming_test.php
+ls
+mkdir web-mode
+cd web-mode
+wget https://raw.github.com/fxbois/web-mode/master/web-mode.el
+ls
+cd ..
+mv web-mode/web-mode.el .
+ls
+rm -rf web-mode
+ls
+mv web-mode.el elpa/
+ls elpa/
+mkdir elpa/web-mode
+mv elpa/web-mode/ elpa/web-mode/
+mv elpa/web-mode.el elpa/web-mode/
+ls elpa/
+ls
+mv elpa/web-mode/ .
+ls
+rm init.el~
+ls
+phpunit-6.phar hamming_test.php
+php hamming.php
+php hamming.php
+php hamming.php
+php
+php hamming.php
+php hamming.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+php hamming.php
+php --version
+php
+php7.0-cli
+apt-get install php7.0-cli
+php -a
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+php hamming.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+exercism submit hamming.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+phpunit-6.phar hamming_test.php
+exercism submit hamming.php
+cd ..
+cd ..
+exercism download --exercise=hello-world
+exercism download --exercise=hello-world --track=javascript
+cd javascript/hello-world/
+ls
+npm install -g jasmine
